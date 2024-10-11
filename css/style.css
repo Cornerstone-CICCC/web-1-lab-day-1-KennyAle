@@ -1,4 +1,69 @@
+body {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
 main,
 footer {
   display: flex;
+}
+
+header {
+  margin: auto;
+}
+
+.logo {
+  background-color: #121d51;
+  text-align: center;
+}
+
+.sidebar {
+  background-color: yellow;
+}
+
+.sidebar h3 {
+  color: blue;
+}
+
+.content {
+  background-color: aqua;
+}
+
+.content img {
+  width: 100%;
+}
+
+.content p:first-of-type {
+  color: white;
+  background-color: black;
+}
+
+.content p:last-of-type {
+  color: white;
+  background-color: green;
+}
+
+.content ul:first-of-type {
+  list-style-type: circle;
+}
+
+.content ul:first-of-type li:nth-of-type(even){
+  color: red;
+}
+
+.content ul:not(:first-child) li a{
+  color: red;
+}
+
+footer div:nth-child(1) {
+  background-color: pink;
+}
+
+footer div:nth-child(2) {
+  background-color: brown;
+  color: white;
+}
+
+footer div:nth-child(3) {
+  background-color: gray;
 }
